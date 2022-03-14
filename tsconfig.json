@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": false,
+    "target": "ES2022",
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
