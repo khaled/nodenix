@@ -16,7 +16,7 @@
     flake-utils.lib.eachDefaultSystem (system: let
       pkgs = nixpkgs.legacyPackages."${system}";
       nl2nix = import npmlock2nix {inherit pkgs;};
-      node = pkgs.nodejs-12_x;
+      node = pkgs.nodejs-14_x;
       nodeModules = nl2nix.node_modules {
         src = ./.;
         nodejs = node;
